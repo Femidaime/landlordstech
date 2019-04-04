@@ -5376,7 +5376,7 @@ table {
 /** SELL YOUR PROPERTIES **/
 .sell-your-properties {
     text-align: center;
-    background: rgba(0, 0, 0, 0.04) url(../img/property-15.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../asset/img/landlord-tech-image-9.png) top left repeat;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -5451,7 +5451,7 @@ table {
 
 /** COMING SOON **/
 .coming-soon-bg {
-    background: rgba(0, 0, 0, 0.04) url(../img/banner-2.jpg) top left repeat;
+    background: rgba(0, 0, 0, 0.04) url(../img/landlord-tech-image-9.png) top left repeat;
     background-size: cover;
     top: 0;
     width: 100%;
