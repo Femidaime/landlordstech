@@ -7241,10 +7241,14 @@ body.off-canvas-sidebar-open {
         font-size: 12px;
     }
 
+
     .btn-lg {
         padding: 8px 20px;
         letter-spacing: .5px;
         line-height: 24px;
+        color: #fff;
+        background-color: #000;
+        margin-left: 10px;
     }
 
     .breadcrumb-area h1 {
