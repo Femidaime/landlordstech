@@ -18,7 +18,7 @@ src: url("css/avenir/AvenirLTStd-Roman.otf") format("opentype");
 
 body {
     font-family: 'Montserrat Alternates', sans-serif;
-    background: #fafafa;
+    background: #000;
     color: #535353;
 }
 
@@ -572,6 +572,7 @@ input[type=checkbox]:checked + label:before {
 
 .content-area-2 {
     padding: 100px 0 70px;
+    background: #fff;
 }
 
 .content-area-3 {
@@ -1156,6 +1157,7 @@ a {
 
 }
 
+
 .banner .banner-slider-inner h3 {
     color: #fff;
     margin-bottom: 40px;
@@ -1175,7 +1177,7 @@ a {
     font-weight: 300;
     opacity: 0.8;
     margin-bottom: 40px;
-    padding: 40px 100px 30px 100px;
+    padding: 10px 30px 40px 30px;
 }
 
 .banner .banner-slider-inner h1 span {
@@ -2014,6 +2016,7 @@ a {
 .featured-properties h3 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 20px;
+    margin: 0px 0px 0px 15px;
     color:#fff;
 }
 
@@ -5067,7 +5070,6 @@ table {
     font-family: 'Avenir-Book', sans-serif;
     font-size: 15px;
     line-height: 32px;
-    margin: 0px 0px 0px 50px;
     text-align: justify;
 }
 
@@ -6632,7 +6634,7 @@ body.off-canvas-sidebar-open {
     }
 
     .about-text {
-        margin-top: 40px;
+      margin: 40px 40px 40px 40px;
     }
 
     .mrb {
@@ -6727,11 +6729,17 @@ body.off-canvas-sidebar-open {
         font-size: 14px;
     }
 
+    iframe {
+      width: 90%;
+      height: 90%;
+      margin: 40px 20px 0px 40px;
+    }
+
     .banner .banner-slider-inner p {
         color: #fff;
-        line-height: 22px;
-        font-size: 13px;
-        margin-bottom: 10px;
+        line-height: 10px;
+        font-size: 8px;
+        margin-left: 20px;
     }
 
     .breadcrumb-area h1 {
@@ -6939,6 +6947,7 @@ body.off-canvas-sidebar-open {
 
     .content-area-2 {
         padding: 60px 0 30px;
+
     }
 
     .content-area-3 {
@@ -7557,7 +7566,7 @@ body.off-canvas-sidebar-open {
     }
 
     .banner .banner-slider-inner h1 {
-        font-size: 22px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
 
@@ -7567,10 +7576,10 @@ body.off-canvas-sidebar-open {
 
     .banner .banner-opt .banner-slider-inner p {
         line-height: 22px;
-        font-size: 14px;
+        font-size: 8px;
         max-width: 90%;
         margin: 0px auto;
-        margin-bottom: 5px;
+        margin-left: 20px;
     }
 
     .sub-banner {
@@ -7594,7 +7603,8 @@ body.off-canvas-sidebar-open {
     }
 
     .carousel-inner img {
-        width: 100%;
+        width: 20%;
+        height: 20%;
     }
 
     .widget {
